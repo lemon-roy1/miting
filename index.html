@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daisy and tailwind</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-5">
+    <header class="mb-4">
+        <div class="form-control w-1/2 mx-auto max-w-xs">
+            <label class="label">
+              <span class="label-text">search your product </span>
+              <span class="label-text-alt">plass<kbd class="kbd kbd-sm">Enter</kbd></span>
+            </label>
+            <input id="search-field" type="text" placeholder="prodect here" class="input input-bordered w-full max-w-xs" />
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="flex">
+                <div class="flex-none">
+                    <ul id="all-menu"  class="menu  bg-secondary text-secondary-content p-2 rounded-box">
+                        <!-- <li><a>Item 1</a></li>
+                        <li><a>Item 2</a></li>
+                        <li><a>Item 3</a></li> -->
+                      </ul>
+                </div>
+                <div id="prodect-container" class="grow grid grid-cols-4 gap-4">
+                
+                </div>
+                
+              </div>
+        </div>
+    </main>
+   <script src="./index.js"></script> 
+</body>
+</html>
